@@ -5,11 +5,17 @@
 
 ## Datos Personales
 **Institución:** Universidad Politécnica de San Luis Potosí
+
 **Matrícula:** 170258
+
 **Nombre:** Sebastián Mata Hernández
+
 **Carrera:** Ingeniería en Tecnologías de la Información
+
 **Materia:** Teoría Computacional
+
 **Profesor:** Juan Carlos González Ibarra
+
 
 ## Como solucionaste el problema
 Lo primero fue realizar una búsqueda acerca del lenguaje Perl, conocer la sintáxis del mismo. Una vez hecho esto se procedió a instalar el módulo necesario para poder trabajar con conjuntos.
