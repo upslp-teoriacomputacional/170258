@@ -128,4 +128,4 @@ Debido a que en Perl no hay variables tipo booleanas, se usarán números (0,1) 
 En Perl no existen las variables booleanas, así que se utilizó un arreglo entero 
 	con los valores (0,1) que serán tomados como si estas fueran booleanas (true, false) 
 	para poder imprimir las tablas de verdad realizando iteraciones y condicionales 
-	mediante if's y for's.
+	mediante estructuras if y for.
