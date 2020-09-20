@@ -45,36 +45,36 @@ Debido a que en Perl no hay variables tipo booleanas, se usarán números (0,1) 
 	for $a (@booleans)
 	{
 		for $b (@booleans)
-    {
+    		{
 			print("| ", $a);
-      printf("\t| ");
+      			printf("\t| ");
 			print($b);
-      print("\t| ");
+      			print("\t| ");
 			print($a or $b);
-      print("\t|\n");
-      }
+      			print("\t|\n");
+      		}
 	}
 ```
 
 #### Tabla de verdad AND
 
 ```perl
-  print("Tabla de verdad (AND):");
+  	print("Tabla de verdad (AND):");
 	print("\n");
 	print("| a\t| b\t| a or b|");
 	print("\n\n");
 	
 	for $a (@booleans)
-  {
+  	{
 		for $b (@booleans)
-    {
-      print("| ", $a);
-      print("\t| ");
+    		{
+      			print("| ", $a);
+      			print("\t| ");
 			print($b);
-      print("\t| ");
+      			print("\t| ");
 			print($a and $b);
-      print("\t|\n");
-      }
+      			print("\t|\n");
+      		}
 	}
 ```
 
@@ -87,18 +87,18 @@ Debido a que en Perl no hay variables tipo booleanas, se usarán números (0,1) 
 	print("\n\n");
 	
 	for $a (@booleans)
-  {
-    print("| ", $a);
-    print("\t| ");
-    if((not $a)== 0)
-    {
-      print(0);
-    }else
-    {
-      print(not $a);
-    }
-    print("\t| \n");
-   }
+  	{
+    		print("| ", $a);
+    		print("\t| ");
+    		if((not $a)== 0)
+    		{
+      			print(0);
+    		}else
+    		{
+      			print(not $a);
+    		}
+    		print("\t| \n");
+   	}
 ```
 
 #### Tabla de verdad de XOR
@@ -112,20 +112,20 @@ Debido a que en Perl no hay variables tipo booleanas, se usarán números (0,1) 
 	for $a (@booleans)
 	{
 		for $b (@booleans)
-    {
+    		{
 			print("| ", $a);
-      print("\t| ");
+      			print("\t| ");
 			print($b);
-      print("\t| ");
+      			print("\t| ");
 			print($a ^ $b);
-      print("\t|\n");
+      			print("\t|\n");
 		}
-  }
+ 	 }
 ```
 
 
 ## Problemas y soluciones al programar
-	En Perl no existen las variables booleanas, así que se utilizó un arreglo entero 
+En Perl no existen las variables booleanas, así que se utilizó un arreglo entero 
 	con los valores (0,1) que serán tomados como si estas fueran booleanas (true, false) 
 	para poder imprimir las tablas de verdad realizando iteraciones y condicionales 
 	mediante if's y for's.
