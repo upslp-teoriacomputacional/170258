@@ -8,7 +8,7 @@
 
 # Para este caso, Perl no cuenta con variables tipo booleanas como tal, en su lugar se usarán números
 # así también, en este lenguaje las listas no son una estructura de datos, son expresiones en código
-# y son asignados casis siempre a un arreglo en ese caso.
+# y son asignados casi siempre a un arreglo en ese caso.
 
 use strict;
 use warnings;
