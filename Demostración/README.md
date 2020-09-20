@@ -26,7 +26,7 @@
 
 
 ### Tablas de verdad.
-	#Definición de Arreglo "booleno" y variables (a y b)
+	#### Definición de Arreglo "booleno" y variables (a y b)
 
 ```perl
 	my @booleans =(0,1);
@@ -34,7 +34,7 @@
 	my $b;
 ```
  
-	#Tabla de verdad OR
+	#### Tabla de verdad OR
 
 ```perl
 	print("Tabla de verdad (OR):");
@@ -56,7 +56,7 @@
 	}
 ```
 
-	#Tabla de verdad AND
+	#### Tabla de verdad AND
 
 ```perl
   print("Tabla de verdad (AND):");
@@ -78,7 +78,7 @@
 	}
 ```
 
-	#Tabla de verdad NOT
+	#### Tabla de verdad NOT
 
 ```perl
 	print("Tabla de verdad (NOT):");
@@ -101,7 +101,7 @@
    }
 ```
 
-	#Tabla de verdad de XOR
+	#### Tabla de verdad de XOR
 
 ```perl
 	print("Tabla de verdad (XOR/^):");
