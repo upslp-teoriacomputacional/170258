@@ -9,13 +9,13 @@
 **Maestro:** Juan Carlos González Ibarra 
 
 
-##Descripción
+## Descripción:
 	En el siguiente programa se hace uso de las operaciones básicas de bit a bit en Perl.
 	Haciendo uso de un arreglo numérico (0,1) y 2 variables enteras en lugar de variables
 	booleanas, mediante estructuras if y estructuras de repetición for.
 
 ### Operaciones a bit:
-   #	AND, OR, NOT & XOR
+#### AND, OR, NOT & XOR
 
 
 # Como solucionaste el problema
