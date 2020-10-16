@@ -9,24 +9,24 @@
 **Maestro:** Juan Carlos González Ibarra 
  
 ## Objetivos
-	Desarrollar un AFND que valide una entrada de datos en el formato: a*ba*
+Desarrollar un AFND que valide una entrada de datos en el formato: a*ba*
 
 ## Problemas al programar  
-	Donde se validaba el fin de la cadena daba error, ya que al leer la cadena, Perl lo hacia con la funcion chomp()
-	pero quitaba el salto de linea, por lo tanto, quité el chomp() y validé el final de la cadena de la siguiente manera:
+Donde se validaba el fin de la cadena daba error, ya que al leer la cadena, Perl lo hacia con la funcion chomp()
+pero quitaba el salto de linea, por lo tanto, quité el chomp() y validé el final de la cadena de la siguiente manera:
 ```Perl
 
- 	if ($_[0] eq "\n"){
-		return 2;            
-	}
+if ($_[0] eq "\n"){
+	return 2;            
+}
 
 ```
 
-	Utilizo la función lenght($cadena) para obtener el largo de la cadena
+Se utiliza la función "lenght($cadena)" para obtener el largo de la cadena:
 
 ```Perl
 
- 	if (($estado == 3) && ($aux==length($cadena)))
+if (($estado == 3) && ($aux==length($cadena)))
 
 ```
 
