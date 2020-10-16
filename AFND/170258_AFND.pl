@@ -7,7 +7,9 @@
 use strict;
 use warnings;
 
+
 my $simbol = "";
+
 
 sub caracter {
     $simbol = "";       
