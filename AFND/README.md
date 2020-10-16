@@ -8,6 +8,7 @@
 
 **Maestro:** Juan Carlos González Ibarra 
  
+ 
 ## Objetivos
 Desarrollar un AFND que valide una entrada de datos en el formato: a*ba*
 
