@@ -97,4 +97,4 @@ for $a (@booleans)
 		print($a ^ $b);
         print("\t|\n");
 	}
-}
+} 
