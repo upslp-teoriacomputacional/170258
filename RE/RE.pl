@@ -77,4 +77,4 @@ sub variableP{
 		}
 	}
 	return 0;
-}
+} 
