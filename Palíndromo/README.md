@@ -12,11 +12,11 @@ Dada una cadena con espacios o sin espacios, analizar si es, o no, un palíndrom
 
 ## Solucion
 Como parte de la solución se buscó copiar la cadena inicial a otra diferente, quitando los espacios y convirtiendo
-todos los caracteres a minúsculas para facilitar la comparación de ambas cadenas
+todos los caracteres a minúsculas para facilitar la comparación de ambas cadenas.
 
 Se copiaron los caracteres de la cadena inicial a un array, posteriormente, utilizando la función "reverse" se
-pasó este mismo array pero invertido a otro array, para compararlos caracter por caracter y de esta manera comprobar
-que la cadena inicial es un palíndromo.
+pasó el array de la cadena inicial pero invertido a otro array, para compararlos caracter por caracter y
+de esta manera comprobar que la cadena inicial es un palíndromo.
 
 ## Validando si la cadena ingresada es un palíndromo.
 
