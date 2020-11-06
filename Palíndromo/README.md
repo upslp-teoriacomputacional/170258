@@ -65,3 +65,4 @@ if (&palindromo == 1)
 	print "La cadena $chain no es un palindromo :(";
 }
 ```
+ 
