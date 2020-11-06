@@ -18,6 +18,16 @@ Se copiaron los caracteres de la cadena inicial a un array, posteriormente, util
 pasó el array de la cadena inicial pero invertido a otro array, para compararlos caracter por caracter y
 de esta manera comprobar que la cadena inicial es un palíndromo.
 
+## Quitando los espacios de la cadena ingresada y
+## convirtiendo todos los caracteres de la misma a minúsculas
+```Perl
+# Eliminar los espacios que llegara a tener la cadena y cambiar todas
+# las letras a minúsculas para que sea más fácil la comparación.
+$chain =~ s/\s//g;
+$chain =~ tr/A-Z/a-z/;
+my @palindrome = split //,$chain;
+```
+
 ## Validando si la cadena ingresada es un palíndromo.
 
 ```Perl
