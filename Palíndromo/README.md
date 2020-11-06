@@ -11,12 +11,12 @@
 Dada una cadena con espacios o sin espacios, analizar si es, o no, un palíndromo.
 
 ## Solucion
-	Como parte de la solución se buscó copiar la cadena inicial a otra diferente, quitando los espacios y convirtiendo
-	todos los caracteres a minúsculas para facilitar la comparación de ambas cadenas
+Como parte de la solución se buscó copiar la cadena inicial a otra diferente, quitando los espacios y convirtiendo
+todos los caracteres a minúsculas para facilitar la comparación de ambas cadenas
 
-	Se copiaron los caracteres de la cadena inicial a un array, posteriormente, utilizando la función "reverse" se
-	pasó este mismo array pero invertido a otro array, para compararlos caracter por caracter y de esta manera comprobar
-	que la cadena inicial es un palíndromo.
+Se copiaron los caracteres de la cadena inicial a un array, posteriormente, utilizando la función "reverse" se
+pasó este mismo array pero invertido a otro array, para compararlos caracter por caracter y de esta manera comprobar
+que la cadena inicial es un palíndromo.
 
 ## Validando si la cadena ingresada es un palíndromo.
 
@@ -44,5 +44,15 @@ sub palindromo
     # con los caracteres de la cadena que invertimos se
     # retorna un 1.
     return 1;
+}
+```
+## Dependiendo del valor retornado en la anterior subrutina, se imprime si la cadena es, o no, un palíndromo.
+```Perl
+if (&palindromo == 1)
+{
+	print "La cadena $chain es un palindromo :D";
+}else
+{
+	print "La cadena $chain no es un palindromo :(";
 }
 ```
