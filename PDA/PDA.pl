@@ -111,7 +111,7 @@ if($aux != $aux2)
 	print("\n|	",$status,"       |        |Fin de Cadena |            |");
     bot();
 
-    print("\n|                Cadena Invalida                     |\n+----------------------------------------------------+");
+    print("\n|                Cadena Invalida :(                  |\n+----------------------------------------------------+");
 }
 
 
